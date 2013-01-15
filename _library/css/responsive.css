@@ -1,0 +1,231 @@
+/* responsive.css */
+html,body,.container{
+	width:100%;
+}
+.span-9, .span-10, .span-11, .span-12, .span-13, .span-14, .span-15, .span-16, .span-17, .span-18, .span-19, .span-20, .span-21, .span-22, .span-23, .span-24{width:100%;}
+#institutional-nav{
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: transparent;
+	border: none;
+}
+	#institutional-nav #inst-home, #institutional-nav #inst-students, #institutional-nav #inst-faculty, #institutional-nav #inst-alumni, #institutional-nav #inst-parents {
+		display: none;
+	}
+	#institutional-nav #utility-tabs{
+		background: transparent !important;
+		width:134px;
+	}
+header .container{
+	height: auto;
+}
+header #header-title{
+	position: absolute;
+	top: 0;
+	left: 0
+;	margin-top: 0;
+	height:55px;
+	width:100%;
+	background-image: -moz-linear-gradient(top, 
+							#334a9a, 
+							#051c62);
+	background-image: -webkit-gradient(linear,left top,left bottom,   
+		color-stop(0,   	#334a9a),   
+		color-stop(1,   	#051c62));
+  	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#334a9a', EndColorStr='#051c62',GradientType=0);
+	border-top: #FD7D00 2px solid;
+}
+	header #header-title #header-title-text-right{
+		height: auto;
+		width: auto;
+		margin-top: 8px;
+	}
+	header #header-title #header-title-text-right h2{
+		color: #FFF;
+		font-size: 1.4em;
+	}
+	 header #header-title #header-title-text-right h3{
+	 	color: #FFF;
+	 	font-size: 1.1em;
+
+	 }
+#utility-links{
+	display: none;
+}
+#searchform-wrap{
+	display: none;
+	background: transparent;
+	margin-top: 0;
+}
+	#header-search-field{
+		display: none;
+	}
+#header-social{
+	display: none;
+}
+#header-actionitem{
+	width: 100%;
+	right: 0;
+}
+#primary-nav{
+	height: auto;
+}
+	#primary-nav .children{
+
+	}
+	#primary-nav, #primary-nav .parent, #primary-nav .children li, #primary-nav #home{
+		width:100%;
+		float: none;
+		overflow: visible;
+		background: #ffffff; /* Old browsers */
+		border-top: 1px solid #D1D1D1;
+		background: -moz-linear-gradient(top, #ffffff 0%, #f1f1f1 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f1f1f1)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, #ffffff 0%,#f1f1f1 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, #ffffff 0%,#f1f1f1 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, #ffffff 0%,#f1f1f1 100%); /* IE10+ */
+		background: linear-gradient(to bottom, #ffffff 0%,#f1f1f1 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f1f1f1',GradientType=0 ); /* IE6-9 */
+		background: transparent url(../../images/bg-dropdown-icon.png) 98% 16px no-repeat !important;
+	}
+	#primary-nav a{ 
+		border-left:none;
+		border-right:none;
+		color:#747272;
+		font-size:20px;
+		line-height: 18px;
+		text-align: left;
+		background: transparent !important;
+	}
+	#primary-nav .children{
+        background: transparent;
+        background-color: #F8F8F8;
+        width:100%;
+        border: none !important;
+    }
+    #primary-nav .children li{
+        border-top:1px solid #D1D1D1;
+        border-bottom: 1px solid #D1D1D1; 
+        background-image: none !important;
+    }
+#feature {
+	border-top: 10px solid #35488c;
+}
+#featured-area{
+	margin:0 auto;
+	max-width: 100%;
+}
+	#featured-area img{
+		max-width: 100%;
+	}
+	#featured-area .pic-frame{
+		width:100% !important;
+	}
+	#featured-area .pic-frame img{
+		max-width: 100% !important;
+	}
+#feature-wrap{
+	display:none;
+}
+#user-role .container-5{
+	margin: 0 auto;
+	width:100%;
+}
+#user-role .span-1{
+	width:30%;
+	margin: 0 auto;
+	background: transparent !important;
+	float:left;
+}
+#secondary{
+    background: #344A9A;
+    background-image: -moz-linear-gradient(top, 
+							#334a9a, 
+							#051c62);
+	background-image: -webkit-gradient(linear,left top,left bottom,   
+		color-stop(0,   	#334a9a),   
+		color-stop(1,   	#051c62));
+  	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#334a9a', EndColorStr='#051c62',GradientType=0);
+}
+.span-8{
+	width:100% !important;
+	margin-right: 10px; !important;
+}
+.span-8 h3{
+	margin:-7px 10px 10px !important;
+}
+.footer_widget{
+	width:100% !important;
+	background: transparent !important;
+}
+.uf-monogram{
+	left:50% !important;
+
+}
+#institutional-footer .span-6{
+	width:21%;
+	margin-left:5px;
+	margin-right:5px;
+	overflow: hidden;
+}
+#institutional-footer .span-24{
+	width:98%;
+}
+#footer-links ul{
+	margin: 0 auto;
+	width: 100%;
+	padding-bottom: 5px;
+}
+#footer-links .footer_logo{
+	width: 205px;
+	margin: 0 auto;
+	float: none;
+}
+
+/* responsive pages */
+#content-shadow{
+    width: 100%;
+}
+#content-shadow #content{
+    padding: 0;
+}
+#sidebar-nav-expand{
+    padding-top:7px;
+    padding-bottom:7px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid grey;
+    color: #FFF;;
+    background-image: -moz-linear-gradient(top, 
+                             #334a9a, 
+                             #051c62);
+                      background-image: -webkit-gradient(linear,left top,left bottom,   
+                          color-stop(0,       #334a9a),   
+                          color-stop(1,       #051c62));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#334a9a', EndColorStr='#051c62',GradientType=0);
+}
+#sidebar-nav{
+    display: none;
+    width:100% !important;
+    margin 0 auto !important;
+}
+    #sidebar-nav li li a, #sidebar-nav ul ul ul a{
+        background: #FFF;
+    }
+#main-content{
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+
+}
+img{
+    max-width:95%;
+}
+#main-content img{
+    margin:0 auto;
+}
+#main-content img:parent{
+    text-align:center;
+}
