@@ -2,9 +2,10 @@ Responsive style
 ================
 University of Florida static HTML template
 ------------------------------------------
-> Author: Anthony DeLorenzo
-> Version: .1 (pre-alpha)
-> Date: 15 Jan 2013
+- Author: Anthony DeLorenzo
+- Version: .1 (pre-alpha)
+- Date: 15 Jan 2013
+
 To enable a responsive layout to your static HTML website based on the University of Florida [ufl.edu](http://ufl.edu) follow the directions below.
 
 ### Getting started
